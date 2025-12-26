@@ -1,0 +1,53 @@
+index.html 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LOVE PAGE</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #ff4081;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #e91e63;
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to LOVE PAGE 💖</h1>
+  <button class="btn" onclick="document.getElementById('player').play()">Play Song</button>
+  <br>
+  <audio id="player" controls>
+    <source src="https://files.catbox.moe/sr4egr.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+</body>
+</html>
+```
